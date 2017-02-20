@@ -2,6 +2,34 @@
     CONSOLE APPLICATION : Sorts Project Overview
 ========================================================================
 
+  My notes:
+
+  Back in 1989 I did a demo program, written in K&R C, for showing sorts...
+  Recently (Feb 2017) I stumbled on the sources, and got them working again
+  in visual studio 2015 C++. The original code would havw been designed to
+  compile on a VAX 780 and an EGA capable IBM PC 286.
+
+  If you look at the source for the sorts, past me referred to text books where the
+  sorts came from; my C book, Algorithms book, an old Pascal book, etc. Keep in mind
+  that 1989 predated (my) access to the internet... so books!
+  
+  Oh, you will need to set, in your project->properties->preprocessor:
+  _CRT_SECURE_NO_WARNINGS
+  
+  Or its gonna complain. The rest of the twiddling is captures in headers and three new method
+  calls.
+  
+  (Escape codes on the screen means you are not supporting vt100 emulation; need win10.)
+  
+  So what happens is, you will be asked for a sample size, whether we should read the data
+  from a file or generate it on the fly.  You will then get a menu with three basic options:
+  1-7 demo a sort, 8 - display the numbers in the sample, and 9 just display the sample.
+  
+
+
+-------------------------------------------------------------------------------
+M$ notes:
+
 AppWizard has created this Sorts application for you.
 
 This file contains a summary of what you will find in each of the files that
