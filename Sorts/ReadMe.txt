@@ -12,6 +12,11 @@
   If you look at the source for the sorts, past me referred to text books where the
   sorts came from; my C book, Algorithms book, an old Pascal book, etc. Keep in mind
   that 1989 predated (my) access to the internet... so books!
+    Algorithms - Algorithms, 2nd Edition by Sedgewick, Robert
+    Data Structures Using Pascal, 2nd Edition,  Aaron M. Tenenbaum, Moshe J. Augenstein.
+    The C programming Language 2nd Edition, Dennis Ritchie
+    The C programming Language 1st Edition, B.W. Kernighan, D.M. Ritchie (odd that I used both)
+    Also, the VT100 User Guide :-)
   
   Oh, you will need to set, in your project->properties->preprocessor:
   _CRT_SECURE_NO_WARNINGS
