@@ -7,7 +7,7 @@
   Back in 1989 I did a demo program, written in K&R C, for showing sorts...
   Recently (Feb 2017) I stumbled on the sources, and got them working again
   in visual studio 2015 C++. The original code would havw been designed to
-  compile on a VAX 780 and an EGA capable IBM PC 286.
+  compile on a VAX 11/750 and an EGA capable IBM PC 286.
 
   If you look at the source for the sorts, past me referred to text books where the
   sorts came from; my C book, Algorithms book, an old Pascal book, etc. Keep in mind
