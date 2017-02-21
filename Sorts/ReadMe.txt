@@ -6,7 +6,7 @@
 
   Back in 1989 I did a demo program, written in K&R C, for showing sorts...
   Recently (Feb 2017) I stumbled on the sources, and got them working again
-  in visual studio 2015 C++. The original code would havw been designed to
+  in visual studio 2015 C++. The original code would have been designed to
   compile on a VAX 11/750 and an EGA capable IBM PC 286.
 
   If you look at the source for the sorts, past me referred to text books where the
@@ -16,10 +16,11 @@
   Oh, you will need to set, in your project->properties->preprocessor:
   _CRT_SECURE_NO_WARNINGS
   
-  Or its gonna complain. The rest of the twiddling is captures in headers and three new method
+  Or its going to complain. The rest of the twiddling is captures in headers and three new method
   calls.
   
-  (Escape codes on the screen means you are not supporting vt100 emulation; need win10.)
+  (If you see Escape codes on the screen means you are not supporting vt100 emulation;
+  this code requires win10.)
   
   So what happens is, you will be asked for a sample size, whether we should read the data
   from a file or generate it on the fly.  You will then get a menu with three basic options:
