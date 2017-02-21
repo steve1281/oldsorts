@@ -28,7 +28,7 @@
 
 int sleep_factor = 10; // delay between compare_draws (milliseconds)
 int push = 5;
-//int i_old = -1, j_old = -1;
+
 int adjust = 1;
 long int comps = 0;
 long int swaps = 0;
@@ -155,7 +155,7 @@ void title()
 	y++;
 	printdw(x, y++,"Back in 1989 I did a demo program, written in K&R C, for showing sorts...");
 	printdw(x, y++,"Recently (Feb 2017) I stumbled on the sources, and got them working again");
-	printdw(x, y++,"in visual studio 2015 C++. The original code would havw been designed to");
+	printdw(x, y++,"in visual studio 2015 C++. The original code would have been designed to");
 	printdw(x, y++,"compile on a VAX 780 and an EGA capable IBM PC 286.");
 	y++;
 	printdw(x, y++,"If you look at the source for the sorts, past me referred to text books where the");
@@ -228,8 +228,7 @@ void dumparray(int v[], int n)
 void drawline(int v, int column, int color)
 {
 	setColor(color);
-	int i = column;
-	vline(push + adjust*(i + 1), OFFSET - v, v, ' ');
+	vline(push + adjust*(column + 1), OFFSET - v, v, ' ');
 	setColor(BACKGROUND_BLACK);
 }
 
@@ -266,7 +265,8 @@ void swapdraw(int *v, int i, int j)
 	drawline(v[i], i, BACKGROUND_RED);
 	drawline(v[j], j, BACKGROUND_RED);
 
-	swaps++; stats();
+	swaps++; 
+	stats(); // update stats
 	
 }
 
@@ -315,12 +315,8 @@ void stats()
 */
 void generateRandom(int *v, int n)
 {
-	int x;
-	char s[5];
-
 	for (int i = 0; i < n; i++) {
-		x = randint(1, OFFSET);
-		v[i] = x;
+		v[i] = randint(1, OFFSET);
 	}
 }
 /*
@@ -355,4 +351,3 @@ void generate(int *v, int n)
 	}
 }
 
-
