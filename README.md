@@ -1,6 +1,4 @@
 # oldsorts
-port of sorting demo I did in 1989 
-
 ========================================================================
     CONSOLE APPLICATION : Sorts Project Overview
 ========================================================================
@@ -26,9 +24,7 @@ port of sorting demo I did in 1989
 ## Setup 
 You will need to set, in your project->properties->preprocessor:
     _CRT_SECURE_NO_WARNINGS
-  
 Or its going to complain. The rest of the twiddling is captures in headers and three new method calls.
-  
 (If you see Escape codes on the screen means you are not supporting vt100 emulation; this code requires win10.)
 
 ## Usage
