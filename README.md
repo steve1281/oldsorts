@@ -1,14 +1,12 @@
 # oldsorts
-========================================================================
-    CONSOLE APPLICATION : Sorts Project Overview
-========================================================================
 
 ##  Overview/History
 
   Back in 1989 I did a demo program, written in K&R C, for showing sorts...
   Recently (Feb 2017) I stumbled on the sources, and got them working again
   in visual studio 2015 C++. The original code would have been designed to
-  compile on a VAX 11/750 and an EGA capable IBM PC 286.
+  compile on a VAX 11/750 and an EGA capable IBM PC 286. This code works on
+  PC with windows 10.
 
 ## References (sort of)
   If you look at the source for the sorts, past me referred to text books where the
