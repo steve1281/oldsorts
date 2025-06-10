@@ -298,13 +298,13 @@ void stats()
 	char outs[100];
 
 	sprintf_s(outs, "Swaps: %ld", swaps);
-	printdw(33, 46, outs);
+	printdw(50, 45, outs);
 
 	sprintf_s(outs, "Compares: %ld", comps);
-	printdw(33, 47, outs);
+	printdw(65, 45, outs);
 
 	sprintf_s(outs, "Elements: %d      ", sample_size);
-	printdw(33, 48, outs);
+	printdw(80, 45, outs);
 
 	setColor(RED);
 
